@@ -13,7 +13,7 @@ function deleteFromObjectByKey(object, key) {
   delete newObject.recipes
   return recipes
 }
-function destructivelyDeleteFromObjectByKey(oject, key) {
+function destructivelyDeleteFromObjectByKey(object, key) {
   delete object.key
   return recipes
 }
